@@ -14,7 +14,6 @@ import { BasicColumnChartComponent } from './charts-components/basic-column-char
 import { BarCategoryChartComponent } from './charts-components/bar-category-chart/bar-category-chart.component';
 import { BasicLineChartComponent } from './charts-components/basic-line-chart/basic-line-chart.component';
 import { TripSimulatorComponent } from './trip-simulator/trip-simulator.component';
-import { NgChartsModule } from 'ng2-charts';
 import { SpeedometerChartComponent } from './charts-components/speedometer-chart/speedometer-chart.component';
 import { DistanceChartComponent } from './charts-components/distance-chart/distance-chart.component';
 import { FuelmeterChartComponent } from './charts-components/fuelmeter-chart/fuelmeter-chart.component';
@@ -60,7 +59,6 @@ import { Daterangepicker } from 'ng2-daterangepicker';
     AppRoutingModule,
     ModalModule.forRoot(),
     NgApexchartsModule,
-    NgChartsModule,
     NgSelectModule,
     Daterangepicker,
     NgxChartsModule,
