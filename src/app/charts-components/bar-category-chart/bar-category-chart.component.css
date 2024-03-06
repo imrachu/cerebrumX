@@ -1,0 +1,14 @@
+.bar-chart-container{
+    display: flex;
+}
+#chart{
+    width: 84%;
+}
+.bar-chart-label-section{
+    width: 16%;
+    height: 220px;
+    margin-top: 35px;
+}
+.bar-chart-label-section-val{
+    margin-bottom: 24px;
+}
