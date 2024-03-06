@@ -19,7 +19,6 @@ import { DistanceChartComponent } from './charts-components/distance-chart/dista
 import { FuelmeterChartComponent } from './charts-components/fuelmeter-chart/fuelmeter-chart.component';
 import { AgmCoreModule } from '@agm/core';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { NgxChartsModule } from '@swimlane/ngx-charts';
 import { MapComponent } from './charts-components/map/map.component';
 import { VinDashboardComponent } from './vin-dashboard/vin-dashboard.component';
 import { NgSelectModule } from '@ng-select/ng-select';
@@ -61,7 +60,6 @@ import { Daterangepicker } from 'ng2-daterangepicker';
     NgApexchartsModule,
     NgSelectModule,
     Daterangepicker,
-    NgxChartsModule,
     AgmCoreModule.forRoot({
       // please get your own API key here:
       // https://developers.google.com/maps/documentation/javascript/get-api-key?hl=en
