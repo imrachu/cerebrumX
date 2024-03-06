@@ -14,8 +14,6 @@ import { BasicColumnChartComponent } from './charts-components/basic-column-char
 import { BarCategoryChartComponent } from './charts-components/bar-category-chart/bar-category-chart.component';
 import { BasicLineChartComponent } from './charts-components/basic-line-chart/basic-line-chart.component';
 import { TripSimulatorComponent } from './trip-simulator/trip-simulator.component';
-import { SpeedometerChartComponent } from './charts-components/speedometer-chart/speedometer-chart.component';
-import { DistanceChartComponent } from './charts-components/distance-chart/distance-chart.component';
 import { FuelmeterChartComponent } from './charts-components/fuelmeter-chart/fuelmeter-chart.component';
 import { AgmCoreModule } from '@agm/core';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -42,8 +40,6 @@ import { Daterangepicker } from 'ng2-daterangepicker';
     BarCategoryChartComponent,
     BasicLineChartComponent,
     TripSimulatorComponent,
-    SpeedometerChartComponent,
-    DistanceChartComponent,
     FuelmeterChartComponent,
     MapComponent,
     VinDashboardComponent,
